@@ -28,6 +28,44 @@ header h1 {
   margin-bottom: 10px;
 }
 
+#auth-bar {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+#login-form-inline input {
+  padding: 5px 8px;
+  border-radius: 4px;
+  border: none;
+  margin-right: 4px;
+}
+
+#login-form-inline button, #logout-btn {
+  padding: 5px 12px;
+  border-radius: 4px;
+  border: none;
+  background-color: #fff;
+  color: #1a237e;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#logged-in-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+}
+
+.error-msg {
+  color: #ffcccc;
+  font-size: 0.85em;
+}
+
 main {
   display: flex;
   flex-wrap: wrap;
