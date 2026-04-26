@@ -1,0 +1,9 @@
+{
+  "teachers": [
+    {
+      "username": "msteacher",
+      "password_hash": "17ec1430c22900265cd3294673ce1646365f9de76e9f44788c38c08ae4faaa3d",
+      "salt": "c4808a901c391d7f9272319bd944d6d7"
+    }
+  ]
+}
